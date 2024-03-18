@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration </h1>
+
+    <!--multipart/form-data for uploading-->
+    <form action="" enctype="multipart/form-data">
+        <div>               <!--For grouping-->
+            <label>Name: </label>
+                <input type="text" placeholder="Enter your Name: " required/>
+        </div>
+    </br>
+        <div>               <!--For grouping-->
+            <label>Email: </label>
+                <input type="email" placeholder="Enter your Email: " required/>
+        </div>
+    </br>
+    <div>               <!--For grouping-->
+        <label>Password: </label>
+            <input type="password" placeholder="Enter your Password: " required/>
+    </div>
+
+    <div>               <!--For grouping-->
+        <label>Gender: </label>
+        <br>
+            <input type="radio" id="M" name="gender"/>
+            <label for="M">Male</label>
+    </br>
+            <input type="radio" id="F" name="gender"/>
+            <label for="F">Female</label>
+    </br>
+    <input type="radio" id="Other" name="gender"/>
+    <label for="Other">Other</label>
+    </div>
+
+    </br>
+    <div>               <!--For grouping-->
+        <input type="checkbox" id="terms"/>
+        <label for="terms">I accept the terms.</label>
+            
+    </div>
+
+    </br>
+    <div>               <!--For grouping-->
+
+        <label for="country">Country</label>
+        <select id="country">
+            <option value="USA">USA</option>
+            <option value="BD">BD</option>
+            <option value="PK">PK</option>
+            <option value="INDIA">INDIA</option>
+            <option value="UK">UK</option>
+            <option value="USSR">USSR</option>
+        </select>
+            
+    </div>
+
+    <br>
+    <label>Image Upload</label>
+    <input type="file"/>
+    <br>
+    <input type="submit" value="submit"/>
+    <input type="button" value="Registration"/>
+
+    </form>
+</body>
+</html>
