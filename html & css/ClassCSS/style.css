@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+}
+
+#navbar{
+    font-size: 30px;
+    background-color: red;
+}
+
+.para{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.box{
+    background-color: aqua;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid red;
+    margin: 30px;
+    width: 200px;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(./nature.webp);
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+
+    color: azure;
+    text-align: center;
+}
+
+.banner p{
+    color: hotpink;
+}
+
+.banner .heading{
+
+    font-size: 200px;
+}

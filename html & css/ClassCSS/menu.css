@@ -1,0 +1,113 @@
+/* start common css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* nav bar css start */
+#navbar{
+    background-color: beige;
+    padding: 20px;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .menu ul{
+    list-style: none;
+    display: flex;
+}
+
+#navbar .menu ul li{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#navbar .menu ul li a{
+    color: yellowgreen;
+}
+
+
+#navbar .menu ul li a:hover{
+    color: navy;
+    background-color: indianred;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+
+#navbar .logo img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.btn{
+
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.btn_position{
+    position: fixed;
+    right: 0;
+    bottom: 15%;
+}
+
+
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+
+}
+
+.main{
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+}
+
+
+.square{
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+}
+.circle{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar{
+    width: 30px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    left: -30px;
+}
